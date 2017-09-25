@@ -1,11 +1,5 @@
 $(document).ready(function(){
     
-//    $("#current")
-//        .hover(function(){
-//        $("#loose-leaf").toggleClass("open");
-//        $("#current").toggleClass("open");
-//    });
-    
     $("#main").hover(function(){
         $("#loose-leaf").toggleClass("open");
         $("#current").toggleClass("open");    
@@ -31,12 +25,6 @@ $(document).ready(function(){
         $("#current").toggleClass("open");    
     });
 
-    
-//        .mouseleave(function(){
-//        $("#loose-leaf").css("display", "none");
-//        $("#current").css("display", "inline-block");
-//    });
-//    
     $(".card:nth-child(4n + 1)").click(function(){
         $(".card:nth-child(4n + 1) .back").toggleClass("open");
         $(".card:nth-child(4n + 1) .front").toggleClass("open");
