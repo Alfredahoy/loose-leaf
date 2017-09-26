@@ -210,6 +210,10 @@ img{
 }
 
 @media screen and (max-width: 450px){
+    .card{
+        margin: 25px 15px;
+    }
+    
     .card .back{
         width: 78%;
     }
