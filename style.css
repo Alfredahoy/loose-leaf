@@ -25,6 +25,8 @@ h1{
 
 h2{
     font-size: calc(15px + 1vw);
+    font-size: -webkit-calc(15px + 1vw);
+    font-size: -moz-calc(15px + 1vw);
     font-weight: bold;
     font-family: "letter-gothic-std", monospace;
     margin-bottom: 5px;
@@ -186,6 +188,8 @@ img{
 }
 
 .card .back p{
+    font-size: -webkit-calc(7px + 0.5vw);
+    font-size: -moz-calc(7px + 0.5vw);
     font-size: calc(7px + 0.5vw);
 }
 
@@ -194,7 +198,7 @@ img{
 }
 
 .card .back{
-    margin: 35px;
+    margin: 25px;
     position: absolute;
     top: 0px;
 /*    margin: 25px 0px;*/
@@ -214,7 +218,6 @@ img{
 .card .back.open{
     position: absolute;
     top: 0px;
-/*    max-width: 405px;*/
     opacity: 1;
     transform: scaleX(1);
 }
@@ -224,6 +227,8 @@ img{
     position: relative;
     font-weight: bold;
     font-size: calc(10px + 1.5vw);
+    font-size: -webkit-calc(10px + 1.5vw);
+    font-size: -moz-calc(10px + 1.5vw);
     z-index: 5;
 }
 
@@ -231,6 +236,8 @@ img{
     position: relative;
     font-weight: bold;
     font-size: calc(10px + 1.5vw);
+    font-size: -webkit-calc(10px + 1.5vw);
+    font-size: -moz-calc(10px + 1.5vw);
     transform: scaleX(-1);
     opacity: 0.1;
     -webkit-filter: grayscale(100%);
