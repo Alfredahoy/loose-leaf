@@ -140,7 +140,8 @@ a:link, a:visited{
 
 #harris:hover, #polly:hover, #robert:hover, #designers:hover{
     cursor: pointer;
-    font-weight: bold;
+    border: 0px solid #000000;
+    border-width: 0 0 0px;
 }
 
 .gallery{
