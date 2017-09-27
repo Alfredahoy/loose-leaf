@@ -24,9 +24,12 @@ h1{
 }
 
 h2{
-    font-size: calc(15px + 1vw);
+/*    font-size: calc(15px + 1vw);*/
+/*
     font-size: -webkit-calc(15px + 1vw);
     font-size: -moz-calc(15px + 1vw);
+*/
+    font-size: 25px;
     font-weight: bold;
     font-family: "letter-gothic-std", monospace;
     margin-bottom: 5px;
@@ -146,7 +149,7 @@ a:link, a:visited{
 }
 
 .gallery{
-    max-width: 1600px;
+    max-width: 1850px;
     margin: auto auto;
     margin-top: -80px;
     z-index: 0;
@@ -190,9 +193,7 @@ img{
 }
 
 .card .back p{
-    font-size: -webkit-calc(7px + 0.5vw);
-    font-size: -moz-calc(7px + 0.5vw);
-    font-size: calc(7px + 0.5vw);
+    font-size: 14px;
 }
 
 .card .back h2{
@@ -203,11 +204,18 @@ img{
     margin: 25px;
     position: absolute;
     top: 0px;
-/*    margin: 25px 0px;*/
-/*    margin-right: 25px;*/
     width: 60%;
     transform: scaleX(-1);
     opacity: 0;
+}
+
+@media screen and (max-width: 700px){
+    .card .back p{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 450px){
@@ -216,7 +224,8 @@ img{
     }
     
     .card .back{
-        width: 78%;
+        width: 92%;
+        margin: 15px;
     }
 }
 
@@ -232,18 +241,11 @@ img{
     padding: 25px;
     position: relative;
     font-weight: bold;
-    font-size: calc(10px + 1.5vw);
-    font-size: -webkit-calc(10px + 1.5vw);
-    font-size: -moz-calc(10px + 1.5vw);
     z-index: 5;
 }
 
 .card .front.open{
     position: relative;
-    font-weight: bold;
-    font-size: calc(10px + 1.5vw);
-    font-size: -webkit-calc(10px + 1.5vw);
-    font-size: -moz-calc(10px + 1.5vw);
     transform: scaleX(-1);
     opacity: 0.1;
     -webkit-filter: grayscale(100%);
