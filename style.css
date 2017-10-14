@@ -160,7 +160,7 @@ a:link, a:visited{
 }
 
 .card{
-    margin: 40px;
+    margin: 40px !important;
     background-color: #ffffff;
     opacity: 0.95;
     clear: both;
@@ -220,7 +220,7 @@ img{
 
 @media screen and (max-width: 450px){
     .card{
-        margin: 35px 15px 25px 15px;
+        margin: 35px 15px 25px 15px !important;
     }
     
     .card .back{
